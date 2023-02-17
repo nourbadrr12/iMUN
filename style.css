@@ -1,0 +1,243 @@
+*{
+margin: 0;
+padding: 10;
+font-family: "Quicksand", sans-serif;
+box-sizing: border-box;
+overflow-y: scroll;
+}
+.header{
+  width: 100%;
+height: 100vh;
+background: #80AEFF;
+padding-left: 11%;
+padding-right: 8%
+position:relative;
+background-image: url("UN_emblem_blue.svg.png");
+background-size: 38%;
+background-repeat: no-repeat;
+background-position: 92% 100%;
+}
+.top-nav{display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 40px 0px 15px;
+border-bottom: 1px solid #fff;
+  overflow: hidden;
+}
+.top-nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-right: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+.top-nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+    overflow: hidden;
+
+
+}
+.top-nav button{
+  background: #E0CEFF;
+  color: #BA93FD;
+  border: 0;
+  outline: 0;
+  border-radius: 30px;
+  padding:20px 20px;
+  cursor: pointer;
+    overflow: hidden;
+}
+.side-nav{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 80px;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 0;
+  background: linear-gradient(#ECE3F6,#AF7AFC,#9CE6FC, #AEAEB0,#E3EFF6,#ECE3F6 );
+background-size: 100% 410%;
+background-position: 0% 40%;
+animation: backcolor 55s linear infinite reverse;
+  overflow: hidden;
+}
+
+@keyframes backcolor {
+  0% {background-position: 0 0%;
+  }
+  100%{background-position: 0 400%;
+}
+}
+.side-nav .logo{
+  width: 60px;
+  cursor: pointer;
+
+}
+.side-nav a {
+text-decoration:none;
+color: #fff;
+transform:rotate(-90deg) translateX(50%);
+width: max-content;
+  overflow: hidden;
+
+
+}
+.ketaba {color: "#fff";
+padding-left: 2%;
+
+}
+.ketaba p{
+font-size: 15px;
+padding-left: 13%;
+
+
+}
+
+.ketaba h1{font-weight: 150;
+font-size: 50px;
+max-width: 600px;
+line-height: 95px;
+padding-left: 13%;
+border-bottom: 1px solid #fff;
+    width: auto;
+text-size-adjust: auto;
+align-items: center;
+justify-content: center;}
+
+.ketaba h2{font-weight: 300;
+font-size: 48px;
+max-width: 600px;
+line-height: 95px;
+padding-left: 13%;
+border-bottom: 1px solid #fff;
+    width: auto;
+text-size-adjust: auto;
+align-items: center;
+justify-content: center;}
+
+.container{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+form{display: flex;
+}
+.accord{
+  margin:35px auto;
+  width: 600px;
+  overflow: hidden;
+}
+.accord li {
+  list-style: none;
+  width: 70%;
+
+  margin: 20px;
+  padding:10px;
+  border-radius: 8px;
+  background: #e3edf7;
+}
+.accord li label{
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;}
+
+label::before{
+  content: '+';
+  margin-right: 10px;
+  font-size: 24px;
+  font-weight: 600;
+}
+input[type="radio"]{
+  display: none;
+}
+.accord .content{
+  color: #555;
+  padding: 0 10px;
+  line-height: 26px;
+  max-height: 0;
+  transition: max-height 0.5s, padding 0.5;
+}
+.accord input[type="radio"]:checked + label+ .content{
+  max-height: 400px;
+  padding: 10px 10px 20px;
+}
+.accord input[type="radio"]:checked + label::before{
+  content:'-';
+}
+.about{
+  width: 100%;
+  padding:78px 0px;
+  padding-left: 50px;
+  color: #fff;
+
+}
+.about-text{
+  width: 550px;
+}
+.main{
+  font-style: italic;
+  width:1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.about-text h1{
+  font-style: italic;
+  font-size: 60px;
+font-family: georgia;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.about-text p{
+    font-size: 40px;
+  font-family: georgia;
+    margin-bottom: 20px;
+    display: flex;
+
+}
+.about-text h2{
+  font-style: italic;
+
+  font-size: 25px;
+  font-family: georgia;
+  margin-bottom: 25px;
+  letter-spacing: 2px;
+}
+span{
+  color: #AF7AFC;
+  font-family: georgia;
+
+  letter-spacing:1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 45px;
+}
+button{
+  background: #E0CEFF;
+  color: #BA93FD;
+  border: 2px solid transparent;
+  outline: 0;
+  border-radius: 30px;
+  padding:13px 30px;
+  cursor: pointer;
+  transition: .4s;
+}
+button:hover{
+  background: transparent;
+  border: 2px soild ##D5BCFF;
+  cursor: pointer;
+}
