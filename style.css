@@ -248,17 +248,17 @@ button:hover{
 }
 iframe {display: flex;
   align-items: center;
-  width: 90%;
+  width: 95%;
   padding:78px 0px;
   padding-left: 50px;
   border-bottom: 1px solid #fff;
-min-width: 300px;
+min-width: 350px;
 }
 .pay{
   color: #fff;
   display: flex;
     align-items: center;
-  font-weight: 50;
+  font-weight: 40;
   font-size: 20px;
   width: 90%;
   padding:78px 0px;
