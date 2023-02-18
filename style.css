@@ -255,6 +255,7 @@ iframe {display: flex;
 min-width: 350px;
 }
 .pay{
+    overflow: hidden;
   color: #fff;
   display: flex;
     align-items: center;
