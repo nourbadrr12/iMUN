@@ -175,10 +175,10 @@ input[type="radio"]{
 
 .accord input[type="radio"]:checked + label+ .content{
   max-height: 400px;
-  padding: 10px 10px 20px;
+  padding: 10px 10px 20px;  overflow: hidden;
 }
 .accord input[type="radio"]:checked + label::before{
-  content:'-';
+  content:'-';  overflow: hidden;
 }
 .about{
   width: 100%;
