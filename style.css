@@ -3,7 +3,8 @@ margin: 0;
 padding: 10;
 font-family: "Quicksand", sans-serif;
 box-sizing: border-box;
-overflow-y: scroll;
+overflow: -moz-scrollbars-none;
+-webkit-scrollbar { width: 0 !important };
 }
 .header{
   width: 100%;
