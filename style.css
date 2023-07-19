@@ -239,7 +239,8 @@ button{
   border-radius: 60px;
   padding:10px 20px;
   cursor: pointer;
-  transition: .4s;}
+  transition: .4s;
+magrin: auto;}
   a:link {
       text-decoration: none;
       color: #fff;
