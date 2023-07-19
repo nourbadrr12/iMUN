@@ -240,9 +240,9 @@ button{
   padding:14px 30px;
   cursor: pointer;
   transition: .4s;
-  max-width: 23vw;
-  max-height: 9vw;
-  min-width: 7vw;}
+  max-width: 30vw;
+  max-height: 11vw;
+  min-width: 5vw;}
   a:link {
       text-decoration: none;
       color: #fff;
