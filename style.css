@@ -239,10 +239,7 @@ button{
   border-radius: 30px;
   padding:10px 20px;
   cursor: pointer;
-  transition: .4s;
-  max-width: 60px;
-  max-height: 50px;
-  min-width: 5vw;}
+  transition: .4s;}
   a:link {
       text-decoration: none;
       color: #fff;
