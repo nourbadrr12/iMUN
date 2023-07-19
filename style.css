@@ -51,7 +51,7 @@ border-bottom: 1px solid #fff;
 
 }
 .top-nav button{
-min-width: 4vw;
+min-width: 6vw;
   cursor: pointer;
     overflow: hidden;
 }
@@ -237,7 +237,7 @@ button{
   border: 2px solid transparent;
   outline: 0;
   border-radius: 30px;
-  padding:14px 30px;
+  padding:13px 28px;
   cursor: pointer;
   transition: .4s;
   max-width: 30vw;
@@ -337,9 +337,7 @@ margin-bottom: 70px;
     margin-left: 20px;
 
   }
-button[type="button"]{padding:10px;
-  margin-bottom: 50px;
-margin-top: 30px;}
+
 .nope {visibility: hidden;}
 .nopee{visibility: hidden;}
 .icon{
