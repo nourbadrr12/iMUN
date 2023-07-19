@@ -54,6 +54,10 @@ border-bottom: 1px solid #fff;
 min-width: 4vw;
   cursor: pointer;
     overflow: hidden;
+	border: 0;
+outline: 0;
+border-radius: 30px;
+padding: 10px 20px;
 }
 .side-nav{
   position: fixed;
