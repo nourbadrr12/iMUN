@@ -52,6 +52,7 @@ border-bottom: 1px solid #fff;
 }
 .top-nav button{
 min-width: 4vw;
+	color:#fff;
   cursor: pointer;
     overflow: hidden;
 	border: 0;
@@ -238,13 +239,7 @@ button{
   background: #019edb;
     text-decoration: none;
   color: #FFFFFF;
-  border: 2px solid transparent;
-  outline: 0;
-  border-radius: 60px;
-  padding:10px 20px;
-  cursor: pointer;
-  transition: .4s;
-magrin: auto;}
+  }
   a:link {
       text-decoration: none;
       color: #fff;
@@ -377,15 +372,7 @@ margin-bottom: 70px;
 }
 
 
-.hi{
-font-family: "Quicksand", sans-serif;
-color: #fff;
-font-size: 7px;
-max-width: 19vw;
-max-height: 7vw;
-min-width: 1vw;
-	position: center;
-}
+
 .title{
   font-size: 4vw;
   margin-top: 30px;
