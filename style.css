@@ -380,10 +380,11 @@ margin-top: 30px;}
 .hi{
 font-family: "Quicksand", sans-serif;
 color: #fff;
-font-size: 10px;
+font-size: 7px;
 max-width: 19vw;
 max-height: 7vw;
 min-width: 1vw;
+	position: center;
 }
 .title{
   font-size: 4vw;
