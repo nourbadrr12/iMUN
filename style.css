@@ -253,6 +253,9 @@ max-width: 30vw;
 position: center;
 margin-left: 40px;
 }
+button[type="button"]{padding:5px;
+  margin-bottom: 40px;
+margin-top: 20px;}
 
 button:hover{
   background: #ADCBFF;
