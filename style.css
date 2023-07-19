@@ -51,7 +51,7 @@ border-bottom: 1px solid #fff;
 
 }
 .top-nav button{
-min-width: 6vw;
+min-width: 4vw;
   cursor: pointer;
     overflow: hidden;
 }
@@ -237,11 +237,11 @@ button{
   border: 2px solid transparent;
   outline: 0;
   border-radius: 30px;
-  padding:13px 28px;
+  padding:14px 30px;
   cursor: pointer;
   transition: .4s;
-  max-width: 30vw;
-  max-height: 11vw;
+  max-width: 23vw;
+  max-height: 9vw;
   min-width: 5vw;}
   a:link {
       text-decoration: none;
@@ -253,9 +253,6 @@ max-width: 30vw;
 position: center;
 margin-left: 40px;
 }
-button[type="button"]{padding:10px;
-  margin-bottom: 50px;
-margin-top: 30px;}
 
 button:hover{
   background: #ADCBFF;
@@ -340,7 +337,9 @@ margin-bottom: 70px;
     margin-left: 20px;
 
   }
-
+button[type="button"]{padding:10px;
+  margin-bottom: 50px;
+margin-top: 30px;}
 .nope {visibility: hidden;}
 .nopee{visibility: hidden;}
 .icon{
@@ -381,7 +380,10 @@ margin-bottom: 70px;
 .hi{
 font-family: "Quicksand", sans-serif;
 color: #fff;
-	width:50%;
+font-size: 10px;
+max-width: 19vw;
+max-height: 7vw;
+min-width: 1vw;
 }
 .title{
   font-size: 4vw;
@@ -402,8 +404,9 @@ color: #fff;
 }
 .move{
   margin-top: 10px;
-  margin-left:2px;}
+  margin-left:2px;
+p }
 
   .h1{
-    font-size: 1vw;
+    font-size: 8vw;
   }
