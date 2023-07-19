@@ -411,4 +411,6 @@ p }
   .h1{
     font-size: 8vw;
   }
-.h2{position:center;}
+.h2{position:center;
+   color:#fff;
+   font-size:4px;}
