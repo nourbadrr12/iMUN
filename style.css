@@ -50,11 +50,7 @@ border-bottom: 1px solid #fff;
 
 
 }
-.top-nav button{
-min-width: 4vw;
-  cursor: pointer;
-    overflow: hidden;
-}
+
 .side-nav{
   position: fixed;
   left: 0;
