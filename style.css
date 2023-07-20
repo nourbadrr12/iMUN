@@ -402,3 +402,8 @@ position: }
   .h1{
     font-size: 8vw;
   }
+.top-nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+    overflow: hidden;
