@@ -293,7 +293,7 @@ min-width: 350px;
 	transition: .3s;
 }
 .formm{
-  min-width: 10px;
+  min-width: 25px;
   position: relative;
   margin-top: 10%;
   margin-bottom: 15%;
@@ -312,7 +312,7 @@ margin-bottom: 70px;
   width: 55vw;
 }
 .dele{
-    min-width: 10px;
+    min-width: 25px;
   box-shadow: 0 .5rem 2rem rgba(0,0, 0,.1);
    padding: 1.5rem;
   border-radius: .5rem;
