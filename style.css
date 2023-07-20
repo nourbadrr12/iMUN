@@ -50,7 +50,11 @@ border-bottom: 1px solid #fff;
 
 
 }
-
+.top-nav button{
+min-width: 4vw;
+  cursor: pointer;
+    overflow: hidden;
+}
 .side-nav{
   position: fixed;
   left: 0;
@@ -135,7 +139,6 @@ input[type="text"]{
  border-radius: 4px;
  background-color: $primary-color;
   margin-bottom: 50px;
-	margin-right:10px;
   width: 47vw;
   height: 50px;
   position: relative;
@@ -231,8 +234,15 @@ button{
   background: #019edb;
     text-decoration: none;
   color: #FFFFFF;
+  border: 2px solid transparent;
+  outline: 0;
+  border-radius: 30px;
+  padding:14px 30px;
   cursor: pointer;
-  }
+  transition: .4s;
+  max-width: 23vw;
+  max-height: 9vw;
+  min-width: 5vw;}
   a:link {
       text-decoration: none;
       color: #fff;
@@ -286,7 +296,7 @@ min-width: 350px;
 	transition: .3s;
 }
 .formm{
-  min-width: 25px;
+  min-width: 10px;
   position: relative;
   margin-top: 10%;
   margin-bottom: 15%;
@@ -305,7 +315,7 @@ margin-bottom: 70px;
   width: 55vw;
 }
 .dele{
-    min-width: 25px;
+    min-width: 10px;
   box-shadow: 0 .5rem 2rem rgba(0,0, 0,.1);
    padding: 1.5rem;
   border-radius: .5rem;
@@ -327,7 +337,9 @@ margin-bottom: 70px;
     margin-left: 20px;
 
   }
-
+button[type="button"]{padding:10px;
+  margin-bottom: 50px;
+margin-top: 30px;}
 .nope {visibility: hidden;}
 .nopee{visibility: hidden;}
 .icon{
@@ -365,6 +377,14 @@ margin-bottom: 70px;
 }
 
 
+.hi{
+font-family: "Quicksand", sans-serif;
+color: #fff;
+font-size: 10px;
+max-width: 19vw;
+max-height: 7vw;
+min-width: 1vw;
+}
 .title{
   font-size: 4vw;
   margin-top: 30px;
