@@ -233,8 +233,8 @@ button{
   color: #FFFFFF;
   border: 2px solid transparent;
   outline: 0;
-  border-radius: 30px;
-  padding:14px 30px;
+  border-radius: 20px;
+  padding:10px 20px;
   cursor: pointer;
   transition: .4s;
   max-width: 23vw;
